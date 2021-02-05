@@ -117,6 +117,15 @@ class Interfaz extends JFrame{
     	JTextField txtfCuarto = new JTextField();
     	txtfCuarto.setBounds(320, 140, 240, 20);
     	add(txtfCuarto);
+    	
+    	MaskFormatter formatter = null;
+    	try {
+    		formatter = new MaskFormatter("@gmail.com");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
 
     	setVisible(true);
 	}
