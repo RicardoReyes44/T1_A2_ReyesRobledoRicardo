@@ -10,11 +10,7 @@ class Interfaz extends JFrame{
 	
 	public Interfaz() {
 		getContentPane().setLayout(null);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setSize(800, 630);
-    	setTitle("Primera tarea");
-    	setLocationRelativeTo(null);
-    	
+
     	setVisible(true);
 	}
 	
