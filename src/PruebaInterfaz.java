@@ -74,6 +74,17 @@ class Interfaz extends JFrame{
     	JCheckBox chkSeptimo = new JCheckBox("include MonkeyRewards link");
     	chkSeptimo.setBounds(5, 555, 190, 30);
     	add(chkSeptimo);
+    	
+    	JTextArea txtAPrimero = new JTextArea(10, 10);
+    	add(txtAPrimero);
+    	
+    	JScrollPane sp = new JScrollPane(txtAPrimero);
+    	sp.setBounds(300, 240, 440, 330);
+    	add(sp);
+    	
+    	for(byte i=0; i<=100 ; i++) {
+    		txtAPrimero.insert("El scroll esta a la derecha\n", 0);
+    	}
 
     	setVisible(true);
 	}
