@@ -15,6 +15,22 @@ class Interfaz extends JFrame{
     	setTitle("Primera tarea");
     	setLocationRelativeTo(null);
 
+    	JLabel label1 = new JLabel("The Classic Form include all visible fiels for");
+    	label1.setBounds(5, 0, 270, 30);
+    	add(label1);
+    	
+    	JLabel label2 = new JLabel("this list");
+    	label2.setBounds(5, 20, 270, 25);
+    	add(label2);
+    	
+    	JLabel label3 = new JLabel("FORM OPTIONS");
+    	label3.setBounds(5, 50, 270, 30);
+    	add(label3);
+    	
+    	JLabel label4 = new JLabel("Include he following:");
+    	label4.setBounds(5, 65, 150, 35);
+    	add(label4);
+
     	setVisible(true);
 	}
 	
