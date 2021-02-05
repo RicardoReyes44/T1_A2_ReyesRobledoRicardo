@@ -58,6 +58,22 @@ class Interfaz extends JFrame{
         JLabel label8 = new JLabel("enable evil popup mode");
     	label8.setBounds(5, 440, 240, 35);
     	add(label8);
+    	
+    	JCheckBox chkCuarto = new JCheckBox("disable all Javascript");
+    	chkCuarto.setBounds(5, 480, 150, 30);
+    	add(chkCuarto);
+    	
+    	JCheckBox chkQuinto = new JCheckBox("required field indicators");
+    	chkQuinto.setBounds(5, 505, 190, 30);
+    	add(chkQuinto);
+    	
+    	JCheckBox chkSexto = new JCheckBox("include archive link");
+    	chkSexto.setBounds(5, 530, 190, 30);
+    	add(chkSexto);
+    	
+    	JCheckBox chkSeptimo = new JCheckBox("include MonkeyRewards link");
+    	chkSeptimo.setBounds(5, 555, 190, 30);
+    	add(chkSeptimo);
 
     	setVisible(true);
 	}
