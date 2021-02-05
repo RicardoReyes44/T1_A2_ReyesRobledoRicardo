@@ -85,6 +85,30 @@ class Interfaz extends JFrame{
     	for(byte i=0; i<=100 ; i++) {
     		txtAPrimero.insert("El scroll esta a la derecha\n", 0);
     	}
+    	
+    	JLabel label9 = new JLabel("Copy/Paste onto you...");
+    	label9.setBounds(300, 210, 240, 30);
+    	add(label9);
+    	
+    	JLabel label10 = new JLabel("Preview");
+    	label10.setBounds(300, 0, 240, 30);
+    	add(label10);
+    	
+    	JLabel label11 = new JLabel("*indicates required");
+    	label11.setBounds(600, 20, 240, 30);
+    	add(label11);
+    	
+    	JLabel label12 = new JLabel("Email Address");
+    	label12.setBounds(320, 35, 240, 30);
+    	add(label12);
+    	
+    	JLabel label13 = new JLabel("First Name");
+    	label13.setBounds(320, 75, 240, 30);
+    	add(label13);
+    	
+    	JLabel label14 = new JLabel("Last Name");
+    	label14.setBounds(320, 115, 240, 30);
+    	add(label14);
 
     	setVisible(true);
 	}
