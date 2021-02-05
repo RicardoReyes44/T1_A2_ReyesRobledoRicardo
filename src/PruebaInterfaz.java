@@ -34,6 +34,14 @@ class Interfaz extends JFrame{
     	JCheckBox chkPrimero = new JCheckBox("a little for you form");
     	chkPrimero.setBounds(5, 90, 150, 30);
     	add(chkPrimero);
+    	
+    	JCheckBox chkSegundo = new JCheckBox("interest group fields");
+    	chkSegundo.setBounds(5, 280, 150, 30);
+    	add(chkSegundo);
+    	
+    	JCheckBox chkTercero = new JCheckBox("required field indicators");
+    	chkTercero.setBounds(5, 305, 190, 30);
+    	add(chkTercero);
 
     	setVisible(true);
 	}
