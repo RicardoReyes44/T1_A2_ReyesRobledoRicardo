@@ -109,6 +109,14 @@ class Interfaz extends JFrame{
     	JLabel label14 = new JLabel("Last Name");
     	label14.setBounds(320, 115, 240, 30);
     	add(label14);
+    	
+    	JTextField txtfTercero = new JTextField();
+    	txtfTercero.setBounds(320, 100, 240, 20);
+    	add(txtfTercero);
+    	
+    	JTextField txtfCuarto = new JTextField();
+    	txtfCuarto.setBounds(320, 140, 240, 20);
+    	add(txtfCuarto);
 
     	setVisible(true);
 	}
