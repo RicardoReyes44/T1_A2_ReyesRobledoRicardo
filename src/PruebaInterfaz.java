@@ -42,6 +42,22 @@ class Interfaz extends JFrame{
     	JCheckBox chkTercero = new JCheckBox("required field indicators");
     	chkTercero.setBounds(5, 305, 190, 30);
     	add(chkTercero);
+    	
+    	JLabel label6 = new JLabel("Set form width");
+    	label6.setBounds(5, 350, 240, 35);
+    	add(label6);
+    	
+    	JTextField txtPrimero = new JTextField();
+    	txtPrimero.setBounds(5, 380, 240, 30);
+    	add(txtPrimero);
+    	
+    	JLabel label7 = new JLabel("Enhance your form");
+    	label7.setBounds(5, 310, 240, 35);
+    	add(label7);
+    	
+        JLabel label8 = new JLabel("enable evil popup mode");
+    	label8.setBounds(5, 440, 240, 35);
+    	add(label8);
 
     	setVisible(true);
 	}
