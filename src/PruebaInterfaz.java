@@ -130,6 +130,12 @@ class Interfaz extends JFrame{
     	txtftf.setBounds(320, 60, 240, 20);
     	
     	add(txtftf);
+    	
+    	ImageIcon ic = new ImageIcon("./image/myimage.png");
+    	JButton btnSubscribe = new JButton();
+    	btnSubscribe.setBounds(320, 170, 100, 20);
+    	add(btnSubscribe);
+    	btnSubscribe.setIcon(new ImageIcon(ic.getImage().getScaledInstance(btnSubscribe.getWidth(), btnSubscribe.getHeight() ,Image.SCALE_SMOOTH)));
 
     	setVisible(true);
 	}
