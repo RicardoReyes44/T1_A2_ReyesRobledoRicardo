@@ -30,6 +30,10 @@ class Interfaz extends JFrame{
     	JLabel label4 = new JLabel("Include he following:");
     	label4.setBounds(5, 65, 150, 35);
     	add(label4);
+    	
+    	JCheckBox chkPrimero = new JCheckBox("a little for you form");
+    	chkPrimero.setBounds(5, 90, 150, 30);
+    	add(chkPrimero);
 
     	setVisible(true);
 	}
