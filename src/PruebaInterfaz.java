@@ -126,6 +126,10 @@ class Interfaz extends JFrame{
 			e.printStackTrace();
 		}
     	
+    	JFormattedTextField txtftf = new JFormattedTextField(formatter);
+    	txtftf.setBounds(320, 60, 240, 20);
+    	
+    	add(txtftf);
 
     	setVisible(true);
 	}
